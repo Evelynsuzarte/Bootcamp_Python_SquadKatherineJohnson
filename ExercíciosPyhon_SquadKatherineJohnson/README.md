@@ -17,7 +17,7 @@ A líder do squad dividiu igualmente as atividades do desafio 1 e 2. As atividad
 
 Desafio 1
 Questões:
-- 1 e 2 Milena Madeira Muchenski 
+- 1 e 2 Milena Madeira Muchenski ✅
 - 3 Amparo Silvia Pastor Castillo Runschka 
 - 4 Rayane Daryl De Carvalho Pantoja 
 - 5 Sarah Georgia de O. F. Moreira 
@@ -33,7 +33,7 @@ Desafio 2
 - 4 Rayane Daryl De Carvalho Pantoja 
 - 5 Sarah Georgia de O. F. Moreira 
 - 6 Amparo Silvia Pastor Castillo Runschka 
-- 7 Milena Madeira Muchenski 
+- 7 Milena Madeira Muchenski ✅
 - 8 Victória Carmen Nagi Simões 
 - 9 Helena Sanches 
 - 10 Andressa Lima Colares 
@@ -43,7 +43,7 @@ Desafio 3
 - 2 Rayane Daryl De Carvalho Pantoja 
 - 3 Sarah Georgia de O. F. Moreira 
 - 4 Amparo Silvia Pastor Castillo Runschka 
-- 5 Milena Madeira Muchenski 
+- 5 Milena Madeira Muchenski ✅
 - 6 Victória Carmen Nagi Simões 
 
 
