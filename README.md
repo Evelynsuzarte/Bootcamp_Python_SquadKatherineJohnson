@@ -6,7 +6,7 @@ Repositório do curso de Bootcamp Python do WoMakersCode
 - Amparo Silvia Pastor Castillo Runschka
 - Andressa Lima Colares
 - Evelyn Suzarte Fernandes (líder)
-- Helena Sanches Neves de Almeia Rodrigues
+- Helena Sanches Neves de Almeida Rodrigues
 - Julia Chaves Silva
 - Milena Madeira Muchenski
 - Rayane Daryl de Carvalho Pantoja
