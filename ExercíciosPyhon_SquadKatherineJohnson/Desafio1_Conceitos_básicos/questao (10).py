@@ -15,7 +15,7 @@ cidade = "São Paulo"
 profissao = "Ciência de dados"
 
 # Criando a mensagem amigável
-mensagem = f"Olá {nome}, é um prazer te conhecer! Vejo que você tem {idade} anos, mora em {cidade} e está se tornando uma profissional de {profissao}. Desejo muito sucesso nessa nova jornada de desenvolvimento!"
+mensagem = f"Olá {nome}, é um prazer te conhecer! Você tem {idade} anos e mora em {cidade}, não é mesmo? Parabéns por estar se tornando uma profissional de {profissao}. Desejo muito sucesso nessa nova jornada de desenvolvimento!"
 
 # Exibindo a mensagem
 print(mensagem)
