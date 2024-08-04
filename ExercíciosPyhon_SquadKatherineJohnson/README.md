@@ -23,7 +23,7 @@ Questões:
 - 5 Sarah Georgia de O. F. Moreira 
 - 6 Evelyn Suzarte Fernandes 
 - 7 Julia Chaves Silva 
-- 8 Helena Sanches 
+- 8 Helena Sanches ✅
 - 9 Andressa Lima Colares 
 - 10 Victória Carmen Nagi Simões 
 
@@ -35,7 +35,7 @@ Desafio 2
 - 6 Amparo Silvia Pastor Castillo Runschka  ✅
 - 7 Milena Madeira Muchenski ✅
 - 8 Victória Carmen Nagi Simões 
-- 9 Helena Sanches 
+- 9 Helena Sanches ✅
 - 10 Andressa Lima Colares 
 
 Desafio 3
@@ -48,7 +48,7 @@ Desafio 3
 
 
 Desafio 4
-- 1 Helena Sanches 
+- 1 Helena Sanches ✅
 - 2 Andressa Lima Colares 
 - 3 Evelyn Suzarte Fernandes 
 - 4 Julia Chaves Silva 
