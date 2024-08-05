@@ -1,35 +1,41 @@
 """
-Escreva um programa que calcule o tempo de uma viagem. 
-Faça um comparativo do mesmo percurso de avião, carro e ônibus.
-Levando em consideração:
-    ● avião = 600 km/h
-    ● carro = 100 km/h
-    ● ônibus = 80 km/h
+11. Escreva um programa que calcule o salário líquido. 
+Lembrando de declarar o salário bruto e o percentual de desconto do Imposto de Renda.
 
-"""
-
-def calcula_tempo(distancia):
-    veiculos_velocidade_por_hora = {
-        "avião" : 600,
-        "carro" : 100,
-        "ônibus" : 80,
-    }
+    ● Renda até R$ 1.903,98: isento de imposto de renda;
+    ● Renda entre R$ 1.903,99 e R$ 2.826,65: alíquota de 7,5%;
+    ● Renda entre R$ 2.826,66 e R$ 3.751,05: alíquota de 15%;
+    ● Renda entre R$ 3.751,06 e R$ 4.664,68: alíquota de 22,5%;
+    ● Renda acima de R$ 4.664,68: alíquota máxima de 27,5%.
     
-    for veiculo, velocidade_hora in veiculos_velocidade_por_hora.items():
-        tempo_viagem_horas = distancia / velocidade_hora
+# """
 
-        if distancia < velocidade_hora:
-            tempo_viagem_minutos = tempo_viagem_horas * 60
-            print(f"Se você for de {veiculo}, vai levar {tempo_viagem_minutos:.0f} minutos para chegar ao seu destino.")
-        else:
-            print(f"Se você for de {veiculo}, vai levar {tempo_viagem_horas:.0f} horas para chegar ao seu destino.")
-
-try: 
-    distancia = float(input("Olá viajante, qual é a distância do seu percurso? "))
-    if distancia <= 0:
-        print("A distância precisa ser maior do que zero.")
+try:
+    salario_bruto = float(input("Por favor digite o seu salário: R$"))
+    imposto_renda = 0
+    
+    if salario_bruto < 0:
+        print("O seu salário não pode ser um valor negativo.")
+        
     else:
-        calcula_tempo(distancia)
-
+        if salario_bruto <= 1903.98:
+            print("Isento de imposto de renda")
+            
+        elif salario_bruto >= 1903.99 and salario_bruto <= 2826.65:
+            imposto_renda = salario_bruto * (7.5/100)
+            
+        elif salario_bruto >= 2826.66 and salario_bruto <= 3751.05:
+            imposto_renda = salario_bruto * (15/100)
+            
+        elif salario_bruto >= 3751.66 and salario_bruto <= 4664.68:
+            imposto_renda = salario_bruto * (22.5/100)
+            
+        else:
+            imposto_renda = salario_bruto * (27.5/100)
+            
+        salario_liquido = salario_bruto - imposto_renda
+        
+        print(f"O seu desconto do imposto de renda foi de R${imposto_renda :.2f} e o seu salário líquido será R${salario_liquido :.2f}.")
+    
 except ValueError:
-    print("O valor precisa ser válido.")
+    print("Este valor é inválido.")
