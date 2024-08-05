@@ -1,24 +1,12 @@
 """
 4. Receba do usuário a quantidade de litros de combustível consumidos e a distância percorrida. Calcule e imprima o consumo médio em km/l.
 """
+# Solicitando a quantidade de litros consumidos e a distância percorrida
+litros_consumidos = float(input("Digite a quantidade de litros consumidos: "))
+distancia_percorrida = float(input("Digite a distância percorrida em quilômetros: "))
 
-try:
-    while True:
-        litros = int(input("Quantos litros de combustível você consumiu neste percurso? "))
-        
-        if litros <= 0:
-            print("Você precisa inserir um valor maior do que zero.")
-            break
-            
-        distancia = int(input("Qual foi a distância percorrida? "))
-        
-        if distancia <= 0:
-            print("A distância não pode ser menor do que zero. ")
-            break
+# Calculando o consumo médio
+consumo_medio = distancia_percorrida / litros_consumidos
 
-        media = distancia/litros
-
-        print(f"O seu veículo fez uma média de {media}km/L")
-
-except ValueError:
-    print("É necessário que seja inserido um valor válido.")
+# Exibindo o resultado
+print(f"O consumo médio é de {consumo_medio:.2f} km/l.")
