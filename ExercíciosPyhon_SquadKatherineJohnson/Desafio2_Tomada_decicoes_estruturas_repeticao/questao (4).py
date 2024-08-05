@@ -4,23 +4,14 @@ pontuação em um exame. O programa deverá solicitar uma nota de 0 a 10. Se
 a pontuação for maior ou igual a 7, o aluno é aprovado; caso contrário, é
 reprovado.
 """
-while True:
-    try:
+# Solicitando a pontuação do aluno
+nota = float(input("Digite a pontuação do aluno (0 a 10): "))
 
-    
-            nota = int(input("Por favor, a nota do aluno: "))
-
-            if nota > 10 or nota < 0:
-                
-                print("A nota precisa ser maior que 0 e menor que 10.\n")
-                continue
-            
-            elif nota >= 7:
-                print("Aluno aprovado!")
-            
-            else:
-                print("Aluno reprovado.")
-            
-    except ValueError:
-        print("Valor inválido. Tente novamente.")
-        continue
+# Classificando e exibindo o resultado
+if 0 <= nota <= 10:
+    if nota >= 7:
+        print("Aluno aprovado.")
+    else:
+        print("Aluno reprovado.")
+else:
+    print("Nota inválida.")
