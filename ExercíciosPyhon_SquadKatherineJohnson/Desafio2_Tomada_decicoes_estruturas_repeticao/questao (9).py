@@ -1,38 +1,15 @@
-"""
-9. O programa deve calcular e apresentar a quantidade de números pares e
+
+"""9. O programa deve calcular e apresentar a quantidade de números pares e
 ímpares inseridos. O processo de leitura deve ser encerrado quando o usuário
 informar o valor zero. Certifique-se de incluir validações para garantir que
 apenas números positivos sejam considerados na contagem e cálculos.
 """
-from time import sleep
-
-numeros_pares = 0
-numeros_impares = 0
-while True:
-    
-    try:
-
-        numero = int(input("Digite os números que deseja inserir na listagem ou digite 0 para sair e -1 para mostrar os resultados: "))
-
-        
-        if numero == 0:
-            print("Obrigada por utilizar nossos programas, saindo...")
-            sleep(0.7)
-            break
-        elif numero == -1:
-            print(f"Você digitou {numeros_pares} números pares e {numeros_impares} números ímpares.")
-            sleep(0.7)
-            break
-        elif numero < -1:
-            print("O valor não pode ser negativo.")
-            continue
-        
-        elif numero % 2 == 0:
-            numeros_pares += 1
-            continue
-        else:
-            numeros_impares += 1
-            continue
-        
-    except ValueError:
-        print("Valor inválido.")
+n = int(input("Insira um número - "))
+par, impar = 0, 0 
+while n!= 0:
+    if n>0 and n%2 == 0:
+        par += 1
+    elif n > 0 and n%2 == 1:
+        impar += 1
+    n = int(input("Insira um número - "))
+print(f"Você inseriu o número zero. No total, foram inseridos {impar} números ímpares e {par} números pares positivos.")
